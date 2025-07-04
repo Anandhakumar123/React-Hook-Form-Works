@@ -1,12 +1,14 @@
 import "./App.css";
-import HookForm from "./components/HookForm";
+import HookFormwithZod from "./components/HookFormwithZod";
+// import HookForm from "./components/HookForm";
 // import SimpleForm from "./components/SimpleForm.tsx";
 
 function App() {
   return (
     <div>
       {/* <SimpleForm /> */}
-      <HookForm />
+      {/* <HookForm /> */}
+      <HookFormwithZod />
     </div>
   );
 }
